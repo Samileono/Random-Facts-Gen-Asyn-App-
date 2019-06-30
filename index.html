@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Random Facts App</title>
+    <style>
+        html,
+        body {
+            overflow: hidden;
+        }
+
+        #facts {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto  mt-5">
+                <div class="card bg-primary p-3">
+                    <div class="card-title">
+                        <h3 class="text-white">Facts App</h3>
+                        <input type="number" id="inputNumber" class="form-control form-control-lg"
+                            placeholder="Enter a random number...">
+                        <div id="facts">
+                            <h2 class="text-white">Facts</h2>
+                            <p class="animated card-text text-white" id="outputFact"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
